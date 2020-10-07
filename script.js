@@ -26,7 +26,7 @@ function handleInput() {
 
   console.log(fontSize, font, color, backgroundColor, text);
 
-  display.style.fontSize = fontSize;
+  display.style.fontSize = fontSize + "px";
   display.style.fontFamily = font;
   display.style.color = color;
   display.style.backgroundColor = backgroundColor;
